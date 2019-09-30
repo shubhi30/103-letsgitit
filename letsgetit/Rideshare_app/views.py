@@ -8,5 +8,8 @@ def index(request):
 def search(request):
 	return render(request, 'Rideshare_app/search.html')
 
+def login(request):
+	return HttpResponse("Display login!")
+
 def profile(request):
 	return  HttpResponse("Profile Page")
