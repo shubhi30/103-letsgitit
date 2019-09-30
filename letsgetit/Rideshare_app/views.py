@@ -6,3 +6,6 @@ def index(request):
 
 def search(request):
 	return HttpResponse("Display search results!")
+
+def profile(request):
+	return  HttpResponse("Profile Page")
