@@ -6,3 +6,6 @@ def index(request):
 
 def search(request):
 	return HttpResponse("Display search results!")
+
+def login(request):
+	return HttpResponse("Display login!")
