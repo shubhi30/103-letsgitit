@@ -9,3 +9,6 @@ def search(request):
 
 def login(request):
 	return HttpResponse("Display login!")
+
+def profile(request):
+	return  HttpResponse("Profile Page")
