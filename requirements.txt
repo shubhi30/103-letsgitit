@@ -14,7 +14,7 @@ gTTS==2.0.1
 gTTS-token==1.1.1
 gunicorn==19.9.0
 idna==2.7
-numpy==1.16.3
+numpy==1.22.0
 pandas==0.24.2
 psycopg2==2.8.3
 PyAudio==0.2.11
